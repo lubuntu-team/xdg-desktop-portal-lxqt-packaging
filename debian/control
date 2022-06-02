@@ -1,0 +1,33 @@
+Source: xdg-desktop-portal-lxqt
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Uploaders: Simon Quigley <tsimonq2@lubuntu.me>
+Section: libs
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               libfm-qt-dev (>= 1.1.0),
+               libkf5windowsystem-dev,
+               libqt5x11extras5-dev,
+               lxqt-build-tools (>= 0.11.0),
+               qtbase5-private-dev
+Standards-Version: 4.6.1
+Vcs-Browser: https://phab.lubuntu.me/source/liblxqt/
+Vcs-Git: https://phab.lubuntu.me/source/liblxqt.git
+Homepage: https://github.com/lxqt/qtxdg-tools
+
+Package: xdg-desktop-portal-lxqt
+Architecture: any
+Depends: libfm-qt-dev (>= 1.1.0),
+         libkf5windowsystem-dev,
+         libqt5x11extras5-dev,
+         xdg-desktop-portal,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: xdg-desktop-portal using Qt/KF5/libfm-qt
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies. It has been tailored for users who value simplicity, speed, and
+ an intuitive interface. Unlike most desktop environments, LXQt also works
+ fine with less powerful machines.
+ .
+ This package contains a backend implementation for xdg-desktop-portal that is
+ using Qt/KF5/libfm-qt.
