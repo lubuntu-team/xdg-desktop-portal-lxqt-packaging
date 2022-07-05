@@ -3,6 +3,7 @@ xdg-desktop-portal-lxqt (0.2.0-0ubuntu1~ppa1) jammy; urgency=medium
   * Backport to Jammy.
   * Removed redundant "Repository-Browser" field from d/upstream/metadata.
   * Removed obsolete "-Wl,--as-needed" linker flag.
+  * Added "Rules-Requires-Root: no" to debian/control.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Tue, 05 Jul 2022 17:04:26 -0500
 

@@ -13,6 +13,7 @@ Standards-Version: 4.6.1
 Vcs-Browser: https://phab.lubuntu.me/source/liblxqt/
 Vcs-Git: https://phab.lubuntu.me/source/liblxqt.git
 Homepage: https://github.com/lxqt/qtxdg-tools
+Rules-Requires-Root: no
 
 Package: xdg-desktop-portal-lxqt
 Architecture: any
