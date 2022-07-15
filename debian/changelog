@@ -1,6 +1,7 @@
 xdg-desktop-portal-lxqt (0.2.0-0ubuntu2) kinetic; urgency=medium
 
   * Removed redundant "Repository-Browser" field from d/upstream/metadata.
+  * Removed obsolete "-Wl,--as-needed" linker flag.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Fri, 15 Jul 2022 13:40:41 -0500
 
