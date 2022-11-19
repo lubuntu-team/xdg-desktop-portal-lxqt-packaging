@@ -1,3 +1,9 @@
+xdg-desktop-portal-lxqt (0.3.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 18 Nov 2022 19:09:04 -0600
+
 xdg-desktop-portal-lxqt (0.2.0-0ubuntu2) kinetic; urgency=medium
 
   * Removed redundant "Repository-Browser" field from d/upstream/metadata.
