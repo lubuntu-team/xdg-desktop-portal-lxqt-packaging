@@ -4,10 +4,10 @@ Uploaders: Simon Quigley <tsimonq2@lubuntu.me>
 Section: libs
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
-               libfm-qt-dev (>= 1.1.0),
+               libfm-qt-dev (>= 1.2.0),
                libkf5windowsystem-dev,
                libqt5x11extras5-dev,
-               lxqt-build-tools (>= 0.11.0),
+               lxqt-build-tools (>= 0.12.0),
                qtbase5-private-dev
 Standards-Version: 4.6.1
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging
@@ -17,7 +17,7 @@ Rules-Requires-Root: no
 
 Package: xdg-desktop-portal-lxqt
 Architecture: any
-Depends: libfm-qt-dev (>= 1.1.0),
+Depends: libfm-qt-dev (>= 1.2.0),
          libkf5windowsystem-dev,
          libqt5x11extras5-dev,
          xdg-desktop-portal,
