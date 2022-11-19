@@ -10,9 +10,9 @@ Build-Depends: debhelper-compat (= 13),
                lxqt-build-tools (>= 0.11.0),
                qtbase5-private-dev
 Standards-Version: 4.6.1
-Vcs-Browser: https://phab.lubuntu.me/source/liblxqt/
-Vcs-Git: https://phab.lubuntu.me/source/liblxqt.git
-Homepage: https://github.com/lxqt/qtxdg-tools
+Vcs-Browser: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging
+Vcs-Git: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging.git
+Homepage: https://github.com/lxqt/xdg-desktop-portal-lxqt
 Rules-Requires-Root: no
 
 Package: xdg-desktop-portal-lxqt
