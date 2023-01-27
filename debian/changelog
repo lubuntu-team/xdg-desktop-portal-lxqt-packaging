@@ -1,3 +1,9 @@
+xdg-desktop-portal-lxqt (0.3.0-0ubuntu4) lunar; urgency=medium
+
+  * No-change rebuild against libfm-qt 1.2.1.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 27 Jan 2023 15:53:17 -0600
+
 xdg-desktop-portal-lxqt (0.3.0-0ubuntu3) lunar; urgency=medium
 
   * No-change rebuild against Qt 5.15.8.
