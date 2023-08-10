@@ -1,3 +1,9 @@
+xdg-desktop-portal-lxqt (0.4.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 Aug 2023 16:40:22 -0500
+
 xdg-desktop-portal-lxqt (0.3.0-0ubuntu4) lunar; urgency=medium
 
   * No-change rebuild against libfm-qt 1.2.1.
