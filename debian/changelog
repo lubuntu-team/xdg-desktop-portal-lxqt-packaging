@@ -1,6 +1,7 @@
 xdg-desktop-portal-lxqt (0.4.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Bump build dependencies.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 Aug 2023 16:40:22 -0500
 
