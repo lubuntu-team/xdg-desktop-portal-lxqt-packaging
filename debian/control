@@ -9,7 +9,7 @@ Build-Depends: debhelper-compat (= 13),
                libqt5x11extras5-dev,
                lxqt-build-tools (>= 0.13.0),
                qtbase5-private-dev
-Standards-Version: 4.6.1
+Standards-Version: 4.6.2
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging.git
 Homepage: https://github.com/lxqt/xdg-desktop-portal-lxqt
