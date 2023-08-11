@@ -6,11 +6,11 @@ Files: *
 Copyright: 2016-2018 Red Hat Inc
            2016-2018 Jan Grulich <jgrulich@redhat.com>
            2018 Alexander Volkov <a.volkov@rusbitech.ru>
-           2021-2022 LXQt team
+           2021-2023 LXQt team
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2022, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Copyright: 2022-2023, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 License: LGPL-2.1+
 
 License: LGPL-2.1+
