@@ -1,3 +1,9 @@
+xdg-desktop-portal-lxqt (0.4.0-0ubuntu2) mantic; urgency=medium
+
+  * Add a Provides for xdg-desktop-portal-backend (LP: #2036098).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 22 Sep 2023 11:51:42 -0500
+
 xdg-desktop-portal-lxqt (0.4.0-0ubuntu1) mantic; urgency=medium
 
   * New upstream release.
