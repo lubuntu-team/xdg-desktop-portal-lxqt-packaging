@@ -3,6 +3,7 @@ xdg-desktop-portal-lxqt (0.5.0-0ubuntu1) noble; urgency=medium
   * New upstream release.
   * Overhauled copyright file.
   * Bump build dependency versions.
+  * Compressed the changelog.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 12 Nov 2023 21:02:39 -0600
 
