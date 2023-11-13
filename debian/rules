@@ -7,8 +7,9 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 %:
 	dh ${@} --buildsystem cmake
 
-#override_dh_missing:
-#	dh_missing --fail-missing
+override_dh_installchangelogs:
+	dh_installchangelogs -O--buildsystem=cmake
+	gzip -9 debian/xdg-desktop-portal-lxqt/usr/share/doc/xdg-desktop-portal-lxqt/CHANGELOG
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
