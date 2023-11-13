@@ -1,3 +1,9 @@
+xdg-desktop-portal-lxqt (0.5.0-0ubuntu2) noble; urgency=medium
+
+  * Bump runtime dependency for new upstream version.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 13 Nov 2023 17:41:18 -0600
+
 xdg-desktop-portal-lxqt (0.5.0-0ubuntu1) noble; urgency=medium
 
   * New upstream release.
