@@ -1,3 +1,9 @@
+xdg-desktop-portal-lxqt (0.5.0-0ubuntu2~ppa1) jammy; urgency=medium
+
+  * Backport to Jammy.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 13 Nov 2023 17:42:41 -0600
+
 xdg-desktop-portal-lxqt (0.5.0-0ubuntu2) noble; urgency=medium
 
   * Bump runtime dependency for new upstream version.
