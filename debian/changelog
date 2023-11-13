@@ -1,3 +1,9 @@
+xdg-desktop-portal-lxqt (0.5.0-0ubuntu1) noble; urgency=medium
+
+  * New upstream release.
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 12 Nov 2023 21:02:39 -0600
+
 xdg-desktop-portal-lxqt (0.4.0-0ubuntu2) mantic; urgency=medium
 
   * Add a Provides for xdg-desktop-portal-backend (LP: #2036098).
