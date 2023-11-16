@@ -1,3 +1,9 @@
+xdg-desktop-portal-lxqt (0.5.0-0ubuntu2~ppa1) mantic; urgency=medium
+
+  * Backport to Mantic.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 16 Nov 2023 15:12:07 -0600
+
 xdg-desktop-portal-lxqt (0.5.0-0ubuntu2) noble; urgency=medium
 
   * Bump runtime dependency for new upstream version.
