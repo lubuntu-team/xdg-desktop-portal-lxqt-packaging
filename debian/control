@@ -49,6 +49,8 @@ Depends: libfm-qt6-dev (>= 2.1.0),
          xdg-desktop-portal,
          ${misc:Depends},
          ${shlibs:Depends}
+Conflicts: lxqt-session (<< 2.1.0)
+Replaces: lxqt-session (<< 2.1.0)
 Pre-Depends: ${misc:Pre-Depends}
 Provides: xdg-desktop-portal-backend
 Description: xdg-desktop-portal using Qt/KF6/libfm-qt

@@ -2,6 +2,8 @@ xdg-desktop-portal-lxqt (1.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
     - Bump build dependencies.
+    - Add Breaks/Replaces on the older lxqt-session, since we include
+      lxqt-portals.conf now.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 05 Nov 2024 18:39:21 -0600
 
