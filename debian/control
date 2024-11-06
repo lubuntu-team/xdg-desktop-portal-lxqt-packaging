@@ -3,11 +3,39 @@ Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@lubuntu.me>
 Section: libs
 Priority: optional
-Build-Depends: debhelper-compat (= 13),
-               libfm-qt6-dev (>= 2.0.0),
-               libkf6windowsystem-dev,
-               lxqt-build-tools (>= 2.0.0),
-               qt6-base-private-dev
+Build-Depends: cmake (>= 3.18),
+               debhelper-compat (= 13),
+               libfm-qt6-dev (>= 2.1.0),
+               libkf6windowsystem-dev (>= 6.0.0),
+               libxcb-composite0-dev,
+               libxcb-cursor-dev,
+               libxcb-damage0-dev,
+               libxcb-dpms0-dev,
+               libxcb-dri2-0-dev,
+               libxcb-dri3-dev,
+               libxcb-ewmh-dev,
+               libxcb-glx0-dev,
+               libxcb-icccm4-dev,
+               libxcb-keysyms1-dev,
+               libxcb-present-dev,
+               libxcb-record0-dev,
+               libxcb-render0-dev,
+               libxcb-res0-dev,
+               libxcb-screensaver0-dev,
+               libxcb-shape0-dev,
+               libxcb-shm0-dev,
+               libxcb-util-dev,
+               libxcb-xf86dri0-dev,
+               libxcb-xfixes0-dev,
+               libxcb-xinerama0-dev,
+               libxcb-xinput-dev,
+               libxcb-xkb-dev,
+               libxcb-xtest0-dev,
+               libxcb-xv0-dev,
+               libxcb-xvmc0-dev,
+               libxkbcommon-dev (>= 0.5.0),
+               lxqt-build-tools (>= 2.1.0),
+               qt6-base-private-dev (>= 6.6.0)
 Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging.git
@@ -16,18 +44,18 @@ Rules-Requires-Root: no
 
 Package: xdg-desktop-portal-lxqt
 Architecture: any
-Depends: libfm-qt6-dev (>= 2.0.0),
-         libkf6windowsystem-dev,
+Depends: libfm-qt6-dev (>= 2.1.0),
+         libkf6windowsystem-dev (>= 6.0.0),
          xdg-desktop-portal,
          ${misc:Depends},
          ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Provides: xdg-desktop-portal-backend
-Description: xdg-desktop-portal using Qt/KF5/libfm-qt
+Description: xdg-desktop-portal using Qt/KF6/libfm-qt
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
  technologies. It has been tailored for users who value simplicity, speed, and
  an intuitive interface. Unlike most desktop environments, LXQt also works
  fine with less powerful machines.
  .
  This package contains a backend implementation for xdg-desktop-portal that is
- using Qt/KF5/libfm-qt.
+ using Qt/KF6/libfm-qt.
