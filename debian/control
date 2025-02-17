@@ -3,8 +3,8 @@ Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@lubuntu.me>
 Section: libs
 Priority: optional
-Build-Depends: cmake (>= 3.18),
-               debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 13),
+               cmake (>= 3.18),
                libfm-qt6-dev (>= 2.1.0),
                libkf6windowsystem-dev (>= 6.0.0),
                libxcb-composite0-dev,
@@ -44,11 +44,7 @@ Rules-Requires-Root: no
 
 Package: xdg-desktop-portal-lxqt
 Architecture: any
-Depends: libfm-qt6-dev (>= 2.1.0),
-         libkf6windowsystem-dev (>= 6.0.0),
-         xdg-desktop-portal,
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: xdg-desktop-portal, ${misc:Depends}, ${shlibs:Depends}
 Conflicts: lxqt-session (<< 2.1.0)
 Replaces: lxqt-session (<< 2.1.0)
 Pre-Depends: ${misc:Pre-Depends}

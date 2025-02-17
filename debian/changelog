@@ -1,3 +1,9 @@
+xdg-desktop-portal-lxqt (1.1.0-0ubuntu5) plucky; urgency=medium
+
+  * Remove extra runtime depends that are pulled in by debhelper anyway.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 16 Feb 2025 19:26:24 -0600
+
 xdg-desktop-portal-lxqt (1.1.0-0ubuntu4) plucky; urgency=medium
 
   * No-change rebuild for Qt 6.8.2.
