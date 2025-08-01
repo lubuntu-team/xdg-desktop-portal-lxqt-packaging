@@ -9,7 +9,8 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 override_dh_installchangelogs:
 	dh_installchangelogs -O--buildsystem=cmake
-	gzip -9 debian/xdg-desktop-portal-lxqt/usr/share/doc/xdg-desktop-portal-lxqt/CHANGELOG
+	mv debian/xdg-desktop-portal-lxqt/usr/share/doc/xdg-desktop-portal-lxqt/CHANGELOG debian/xdg-desktop-portal-lxqt/usr/share/doc/xdg-desktop-portal-lxqt/changelog
+	gzip -9 debian/xdg-desktop-portal-lxqt/usr/share/doc/xdg-desktop-portal-lxqt/changelog
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
