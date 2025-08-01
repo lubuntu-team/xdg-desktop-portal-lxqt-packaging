@@ -45,7 +45,7 @@ Rules-Requires-Root: no
 Package: xdg-desktop-portal-lxqt
 Architecture: any
 Depends: xdg-desktop-portal, ${misc:Depends}, ${shlibs:Depends}
-Conflicts: lxqt-session (<< 2.1.0)
+Breaks: lxqt-session (<< 2.1.0)
 Replaces: lxqt-session (<< 2.1.0)
 Pre-Depends: ${misc:Pre-Depends}
 Provides: xdg-desktop-portal-backend
