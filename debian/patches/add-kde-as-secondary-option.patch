@@ -1,3 +1,9 @@
+Description: Add KDE desktop portal as fallback
+ KDE's desktop portal is a better fallback than GTK's for Qt-based desktop
+ environments. Try KDE's before falling back to GTK's.
+Forwarded: no
+Author: Simon Quigley <tsimonq2@ubuntu.com>
+Reviewed-By: Aaron Rainbolt <arraybolt3@ubuntu.com>
 --- a/data/lxqt-portals.conf
 +++ b/data/lxqt-portals.conf
 @@ -1,3 +1,2 @@

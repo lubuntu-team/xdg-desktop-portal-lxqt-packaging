@@ -6,6 +6,7 @@ xdg-desktop-portal-lxqt (1.2.0-0ubuntu1) questing; urgency=medium
   * Update Standards-Version to 4.7.2, no changes needed.
   * Use Breaks/Replaces rather than Conflicts/Replaces on older lxqt-session
     versions.
+  * Add DEP-3 header on add-kde-as-secondary-option.patch.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 01 Aug 2025 11:30:28 -0500
 
