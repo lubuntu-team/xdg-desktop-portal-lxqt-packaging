@@ -40,7 +40,6 @@ Standards-Version: 4.7.3
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging.git
 Homepage: https://github.com/lxqt/xdg-desktop-portal-lxqt
-Rules-Requires-Root: no
 
 Package: xdg-desktop-portal-lxqt
 Architecture: any
