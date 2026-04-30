@@ -6,8 +6,9 @@ Author: Simon Quigley <tsimonq2@ubuntu.com>
 Reviewed-By: Aaron Rainbolt <arraybolt3@ubuntu.com>
 --- a/data/lxqt-portals.conf
 +++ b/data/lxqt-portals.conf
-@@ -1,3 +1,2 @@
+@@ -1,4 +1,2 @@
  [preferred]
 -default=lxqt
+-org.freedesktop.impl.portal.Access=lxqt;gtk;
 -org.freedesktop.impl.portal.FileChooser=lxqt;gtk;
 +default=lxqt;kde;gtk;
