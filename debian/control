@@ -2,7 +2,6 @@ Source: xdg-desktop-portal-lxqt
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@lubuntu.me>
 Section: libs
-Priority: optional
 Build-Depends: debhelper-compat (= 13),
                cmake (>= 3.18),
                libfm-qt6-dev (>= 2.3.0),
@@ -36,7 +35,7 @@ Build-Depends: debhelper-compat (= 13),
                libxkbcommon-dev (>= 0.5.0),
                lxqt-build-tools (>= 2.3.0),
                qt6-base-private-dev (>= 6.6.0)
-Standards-Version: 4.7.3
+Standards-Version: 4.7.4
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/xdg-desktop-portal-lxqt-packaging.git
 Homepage: https://github.com/lxqt/xdg-desktop-portal-lxqt
