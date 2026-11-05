@@ -1,10 +1,10 @@
-xdg-desktop-portal-lxqt (1.5.0-0ubuntu1) UNRELEASED; urgency=medium
+xdg-desktop-portal-lxqt (1.5.0-0ubuntu1) tenacious; urgency=medium
 
   * New upstream release.
   * Update build dependencies.
   * Update to debhelper-compat 14.
 
- -- Simon Quigley <tsimonq2@debian.org>  Wed, 04 Nov 2026 20:27:12 -0600
+ -- Simon Quigley <tsimonq2@debian.org>  Wed, 04 Nov 2026 21:46:56 -0600
 
 xdg-desktop-portal-lxqt (1.4.0-0ubuntu1) stonking; urgency=medium
 
