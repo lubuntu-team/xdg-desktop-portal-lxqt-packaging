@@ -2,7 +2,8 @@ Source: xdg-desktop-portal-lxqt
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@lubuntu.me>
 Section: libs
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 14),
+               dh-sequence-single-binary,
                cmake (>= 3.18),
                libfm-qt6-dev (>= 2.5.0),
                libkf6windowsystem-dev (>= 6.0.0),
@@ -42,8 +43,7 @@ Homepage: https://github.com/lxqt/xdg-desktop-portal-lxqt
 
 Package: xdg-desktop-portal-lxqt
 Architecture: any
-Depends: xdg-desktop-portal, ${misc:Depends}, ${shlibs:Depends}
-Pre-Depends: ${misc:Pre-Depends}
+Depends: xdg-desktop-portal
 Provides: xdg-desktop-portal-backend
 Description: xdg-desktop-portal using Qt/KF6/libfm-qt
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
